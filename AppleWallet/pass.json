@@ -1,0 +1,27 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.yourcompany.example",
+    "serialNumber": "123456",
+    "teamIdentifier": "ABCDE12345",
+    "organizationName": "Your Company",
+    "description": "Event Ticket",
+    "logoText": "Concert Ticket",
+    "foregroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "labelColor": "rgb(255, 255, 255)",
+    "barcode": {
+      "format": "PKBarcodeFormatQR",
+      "message": "123456789",
+      "messageEncoding": "iso-8859-1"
+    },
+    "eventTicket": {
+      "primaryFields": [
+        {
+          "key": "event",
+          "label": "Event",
+          "value": "Concert"
+        }
+      ]
+    }
+  }
+  
